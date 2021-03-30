@@ -80,7 +80,7 @@ $(document).ready(function () {
                     // slidesPerView: 1,
                     slidesPerView: 'auto',
                     spaceBetween: 20,
-                    centeredSlides: true,
+                    // centeredSlides: true,
                     speed: 1000,
                     pagination: {
                         el: '.swiper-pagination',
@@ -109,6 +109,15 @@ $(document).ready(function () {
         });
 
     }
+    var windowWidth = $(window).width();
+    var containerWidth = $('.container-fluid').width();
+    var paddingWidth = (windowWidth - containerWidth) / 2;
+    if ($(window).width() > 1024 && $(window).width() < 1200) {
+        $('.visitslide-wrap .swiper-containerv').css('padding-left', paddingWidth)
+
+    }
+
+
 
 
 

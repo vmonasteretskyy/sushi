@@ -1319,8 +1319,13 @@ textarea {
     background: #33E0A1;
 }
 
+.ourcontacts__info .descbox {
+    display: none;
+}
 
-
+.visitslide-wrap {
+    padding: 0 20px;
+}
 
 /* 
 font-family: 'Raleway', sans-serif;
