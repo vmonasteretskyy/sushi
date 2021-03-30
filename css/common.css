@@ -377,7 +377,7 @@ a:focus {
 .mainnav {
     padding: 0 20px 25px;
     position: relative;
-    top: 69vh;
+    top: 53vh;
 }
 
 .mainnav ul {
@@ -1150,8 +1150,15 @@ body.hidecook .mainslider .swiper-pagination {
     overflow: hidden;
 }
 
+.visitslide-wrap .swiper-button-next,
+.visitslide-wrap .swiper-button-prev {
+    outline: none;
+}
 
-
+.visitslide-wrap .swiper-button-next svg,
+.visitslide-wrap .swiper-button-prev svg {
+    width: 15px;
+}
 
 
 

@@ -108,6 +108,18 @@
         object-position: 50% 50%;
     }
 
+    .visitslide-wrap .swiper-slide {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .visslidewrap {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
 }
 
 @media(min-width:992px) {
@@ -268,8 +280,27 @@
         object-position: initial;
     }
 
+    .visitslide-wrap .swiper-slide {
+        max-width: none;
+        flex: none;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-
+    .visslidewrap {
+        height: 400px;
+        overflow: hidden;
+        transition-delay: inherit !important;
+        opacity: 1 !important;
+        transform: none !important;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
+        transition-duration: inherit !important;
+        transition-timing-function: inherit !important;
+        transition-property: none !important;
+    }
 
 
 
@@ -1047,8 +1078,28 @@
         max-width: initial;
     }
 
+    .visslidewrap {
+        height: 500px;
+    }
 
+    .menusection.visit h1 {
+        margin-bottom: 92px;
+    }
 
+    .vworktime-title {
+        font-size: 30px;
+        line-height: 24px;
+        margin-bottom: 27px;
+    }
+
+    .vworktime-list li {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .vworktime-list {
+        margin-bottom: 100px;
+    }
 
 }
 
@@ -1076,7 +1127,9 @@
         padding-bottom: 139px;
     }
 
-
+    .visslidewrap {
+        height: 600px;
+    }
 
 
 }
@@ -1273,7 +1326,7 @@
     }
 
     .mainnav {
-        top: 375px;
+        top: 300px;
     }
 }
 
