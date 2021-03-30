@@ -57,15 +57,58 @@ $(document).ready(function () {
     // cookies
     $('.close-cookies, .cookies-section a.cookies__ok').click(function () {
         $('.cookies-section').fadeOut();
+        $('body').removeClass('hidecook');
     });
 
     // .cookies-section
-
     setTimeout(function () {
         $('.cookies-section').fadeIn();
+        if ($('*').is('.mainnav, .mainslider .swiper-button-next, .mainslider .swiper-button-prev, .mainslider .swiper-pagination')) {
+            $('body').addClass('hidecook');
+        }
     }, 2000);
 
+    // VISIT US
+    if ($('*').is('.swiper-containerv')) {
 
+
+        var mySwiper = undefined;
+        function initSwiper() {
+            var screenWidth = $(window).width();
+            if (screenWidth > 1024 && mySwiper == undefined) {
+                mySwiper = new Swiper('.swiper-containerv', {
+                    // slidesPerView: 1,
+                    slidesPerView: 'auto',
+                    spaceBetween: 20,
+                    centeredSlides: true,
+                    speed: 1000,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    }
+
+                });
+            } else if (screenWidth < 1025 && mySwiper != undefined) {
+                mySwiper.destroy();
+                mySwiper = undefined;
+                jQuery('.swiper-wrapper').removeAttr('style');
+                jQuery('.swiper-slide').removeAttr('style');
+            }
+        }
+
+        //Swiper plugin initialization
+        initSwiper();
+
+        //Swiper plugin initialization on window resize
+        $(window).on('resize', function () {
+            initSwiper();
+        });
+
+    }
 
 
 

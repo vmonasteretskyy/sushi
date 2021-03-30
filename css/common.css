@@ -194,27 +194,48 @@ a:focus {
     margin: 0;
     position: absolute;
     top: calc(100% + 14px);
-    padding: 9px 0;
-    background: #171717;
-    width: 28px;
+    padding: 12px 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 59px;
     text-align: center;
-    left: -1px;
     display: none;
+    right: -20px;
+    height: 110px;
+}
+
+.header__lang ul:after {
+    content: '';
+    display: inline-block;
+    width: calc(100% - 14px);
+    height: calc(100% - 14px);
+    background: rgba(46, 46, 46, 0.6);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .header__lang ul li:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
+}
+
+.header__lang ul li {
+    position: relative;
+    z-index: 2;
 }
 
 .header__lang ul li a {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #878E8C;
-    font-family: 'Akrobat-bold sans-serif';
+    color: #fff;
+    /* font-family: 'Akrobat-bold sans-serif'; */
+    font-family: 'Akrobat sans-serif';
 }
 
 /* MAIN SLIDER */
@@ -662,49 +683,84 @@ h1:before {
 
 /* Cookies */
 .cookies-section {
-    background: #101010;
+    background: rgba(29, 29, 29, 0.58);
     width: 100%;
+    height: 100%;
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     z-index: 11;
     display: none;
 }
 
+.cookie-wrapbox {
+    background: rgba(32, 29, 29, 0.7);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .cookies-section .wrapper {
     display: block;
-    padding: 10px 0;
+    padding: 67px 0 37px;
 }
 
 .cookies-section img {
-    margin: 0 auto 10px;
     display: block;
+    margin-right: 0;
+}
+
+.cookies-section .descrwrap img {
+    width: 45px;
+    margin-right: 14px;
+}
+
+.cookies-section .descrwrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 33px;
+    justify-content: center;
 }
 
 .cookies-section p {
-    margin: 0 0 10px 0;
+    margin: 0;
     font-size: 18px;
     line-height: normal;
     color: #FFFFFF;
     font-family: 'Teko', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .cookies-section a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 242px;
-    height: 60px;
+    width: 126px;
+    height: 34px;
     font-size: 18px;
     line-height: 18px;
     color: #fff;
-    font-family: 'Akrobat-bold sans-serif';
+    font-family: 'Teko', sans-serif;
     transition: .3s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
+    margin: 0;
+}
+
+.cookies-section a.cookies__privacy {
+    width: auto;
+    height: auto;
+}
+
+.cookies-section .btnwrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 256px;
     margin: 0 auto;
 }
 
@@ -726,8 +782,8 @@ h1:before {
     padding: 0;
     outline: none;
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 20px;
+    top: 20px;
 }
 
 button:focus {
@@ -837,6 +893,211 @@ button:focus {
     left: 85% !important;
     top: 67% !important;
 }
+
+.ourmenu-parallax {
+    display: none;
+}
+
+.product__circle {
+    margin-right: -20px;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    border: 1px solid rgba(205, 102, 109, 0.2);
+    top: -100px;
+    right: -16px;
+    position: relative;
+
+}
+
+.product-picsect {
+    text-align: right;
+}
+
+.produvtpic img {
+    max-width: 100%;
+}
+
+.menusection.category {
+    overflow: hidden;
+}
+
+.produvtpic {
+    padding-right: 26px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderdelivery {
+    padding: 33px 0 0 0;
+}
+
+.orderdelivery h1 {
+    margin: 0 0 40px 0;
+}
+
+.order__picsect img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.order__picsect p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+}
+
+.order__picsect p:last-child {
+    margin-bottom: 0;
+}
+
+.order__picsect {
+    margin-bottom: 48px;
+}
+
+.order__btnsect .title,
+.order__textsect .title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 25px;
+}
+
+.orderon {
+    background: #171717;
+    padding: 48px 37px 72px;
+    margin-bottom: 54px;
+}
+
+.orderon__title {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Teko', sans-serif;
+}
+
+.orderon a {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+
+.orderon a:last-child {
+    margin-bottom: 0;
+}
+
+.orderon a.justeat {
+    background: #FF7F00;
+}
+
+.orderon a.glovo {
+    background: #F8C366;
+}
+
+.orderon a.deliveroo {
+    background: #00CCBC;
+}
+
+.order__textsect p:last-child {
+    margin-bottom: 0;
+}
+
+.order__textsect p {
+    color: #333333;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.order__textsect {
+    margin-bottom: 50px;
+}
+
+.order__picsect .descpic {
+    display: none;
+}
+
+.order__textsect .title {
+    display: none;
+}
+
+.visslidewrap img {
+    width: 100%;
+}
+
+.mainnav,
+.mainslider .swiper-button-next,
+.mainslider .swiper-button-prev,
+.mainslider .swiper-pagination {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+body.hidecook .mainnav,
+body.hidecook .mainslider .swiper-button-next,
+body.hidecook .mainslider .swiper-button-prev,
+body.hidecook .mainslider .swiper-pagination {
+    opacity: 0;
+
+}
+
+/* VISIT */
+
+.menusection.visit h1 {
+    margin-bottom: 32px;
+}
+
+.vworktime-title {
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 14px;
+}
+
+.vworktime-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

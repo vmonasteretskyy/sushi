@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <title>Product</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/common.css">
@@ -104,71 +104,91 @@
         </div>
     </header>
     <main>
-        <section class="mainslider">
-            <div class="mainslider__wrapper">
-                <!-- Swiper slider -->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/slide-pic.jpg" alt="img"></div>
-                        <div class="swiper-slide"><img src="img/slide-pic.jpg" alt="img"></div>
-                        <div class="swiper-slide"><img src="img/slide-pic.jpg" alt="img"></div>
-                        <div class="swiper-slide"><img src="img/slide-pic.jpg" alt="img"></div>
-                        <div class="swiper-slide"><img src="img/slide-pic.jpg" alt="img"></div>
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next">
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L6.75736 11.3033C6.46447 11.5962 5.98959 11.5962 5.6967 11.3033C5.40381 11.0104 5.40381 10.5355 5.6967 10.2426L9.93934 6L5.6967 1.75736C5.40381 1.46447 5.40381 0.989592 5.6967 0.696699C5.98959 0.403805 6.46447 0.403805 6.75736 0.696699L11.5303 5.46967ZM-6.55672e-08 5.25L11 5.25L11 6.75L6.55672e-08 6.75L-6.55672e-08 5.25Z"
-                                fill="white" />
-                        </svg>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M0.46967 5.46967C0.176777 5.76256 0.176777 6.23744 0.46967 6.53033L5.24264 11.3033C5.53553 11.5962 6.01041 11.5962 6.3033 11.3033C6.59619 11.0104 6.59619 10.5355 6.3033 10.2426L2.06066 6L6.3033 1.75736C6.59619 1.46447 6.59619 0.989592 6.3033 0.696699C6.01041 0.403805 5.53553 0.403805 5.24264 0.696699L0.46967 5.46967ZM12 5.25L1 5.25L1 6.75L12 6.75L12 5.25Z"
-                                fill="white" />
-                        </svg>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-        <section class="mainnav">
-            <ul>
-                <li><a href="#"><span>MENU</span></a></li>
-                <li><a href="#"><span>Order to Delivery</span></a></li>
-                <li><a href="#"><span>Visit RED PALM</span></a></li>
-            </ul>
-        </section>
-    </main>
-
-    <div class="cookies-section">
-        <div class="cookie-wrapbox">
-            <button class="close-cookies">
-                <img src="img/icon/close-red.svg" alt="">
-            </button>
+        <div class="breadcrumbs">
             <div class="container-fluid">
-                <div class="wrapper">
-                    <div class="descrwrap">
-                        <img src="img/cookies.png" alt="img">
-                        <p>We use cookies to make your experience better</p>
-                    </div>
-                    <div class="btnwrap">
-                        <a href="#" class="cookies__ok">Ok</a>
-                        <a href="#" class="cookies__privacy">Privacy policy</a>
-                    </div>
-                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Sushi</a></li>
+                    <li><a href="#">Special Sushi</a></li>
+                    <li>RED PALM</li>
+                </ul>
             </div>
         </div>
-    </div>
+        <section class="menusection category">
+            <div class="container-fluid">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-lg-10">
+                        <a href="javascript:history.back()" class="backlink">
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="5.66663" y="0.666748" width="7.07097" height="0.942795" rx="0.471397"
+                                    transform="rotate(135 5.66663 0.666748)" fill="#010101" />
+                                <rect x="0.666626" y="4.3335" width="7.07097" height="0.942795" rx="0.471398"
+                                    transform="rotate(45 0.666626 4.3335)" fill="#010101" />
+                            </svg>
+                            Back
+                        </a>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="product-picsect">
+                                    <div class="product__circle">
+                                        <div class="produvtpic">
+                                            <img src="img/product.png" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="product-descr">
+                                    <p class="title">RED PALM</p>
+                                    <div class="descr">
+                                        <p>
+                                            Rice, salmon, Tobiko (Flying fish roe), cucumber, Philadelphia cream cheese.
+                                            <span>(8 pieces)</span>
+                                        </p>
+                                    </div>
+                                    <a href="#" class="share">Share</a>
+                                    <div class="alergens-section">
+                                        <p class="alergens__title">ALLERGENS</p>
+                                        <p class="alergens__descr">Gluten / Fish / Dairy products</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- <div id="scene" class="cat-parallax">
+            <div data-depth="0.3"><img src="img/parallax/catparr1.png" alt="pic"></div>
+            <div data-depth="-0.1"><img src="img/parallax/catparr2.png" alt="pic"></div>
+            <div data-depth="0.1"><img src="img/parallax/catparr3.png" alt="pic"></div>
+            <div data-depth="0.2"><img src="img/parallax/catparr4.png" alt="pic"></div>
+            <div data-depth="-0.1"><img src="img/parallax/catparr5.png" alt="pic"></div>
+            <div data-depth="0.1"><img src="img/parallax/catparr6.png" alt="pic"></div>
+            <div data-depth="0.3"><img src="img/parallax/catparr-pep1.png" alt="pic"></div>
+            <div data-depth="0.1"><img src="img/parallax/catparr-pep2.png" alt="pic"></div>
+            <div data-depth="0.2"><img src="img/parallax/catparr-pep3.png" alt="pic"></div>
+            <div data-depth="-0.1"><img src="img/parallax/catparr-pep4.png" alt="pic"></div>
+            <div data-depth="0.6"><img src="img/parallax/catparr-pep5.png" alt="pic"></div>
+        </div> -->
+    </main>
+
 
 
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swiper.js"></script>
+    <script src="js/parallax.js"></script>
     <script src="js/common.js"></script>
 </body>
 
