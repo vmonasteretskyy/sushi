@@ -120,6 +120,48 @@
         margin-bottom: 30px;
     }
 
+    .ourcontacts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ourcontacts__info {
+        width: 100%;
+        max-width: 40%;
+        flex: 0 0 40%;
+        order: 2;
+        margin-top: 0;
+        padding-top: 50px;
+        background-color: transparent;
+        position: relative;
+    }
+
+    .ourcontacts__form {
+        width: 100%;
+        max-width: 60%;
+        flex: 0 0 60%;
+        order: 1;
+    }
+
+    .ourcontacts__bottomsect {
+        order: 3;
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .ourcontacts__info:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #CA1824;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
 }
 
 @media(min-width:992px) {

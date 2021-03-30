@@ -186,6 +186,7 @@ a:focus {
     position: relative;
     width: 22px;
     display: inline-block;
+    z-index: 9999;
 }
 
 .header__lang ul {
@@ -1160,9 +1161,163 @@ body.hidecook .mainslider .swiper-pagination {
     width: 15px;
 }
 
+.ourcontacts__info {
+    background: #CA1824;
+    padding: 164px 0 10px 0;
+    margin-top: -150px;
+}
 
+.ourcontacts__info .title {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    line-height: 48px;
+    color: #fff;
+    margin-bottom: 29px;
+}
 
+.addrbox__title {
+    font-family: 'Teko', sans-serif;
+    color: #DBDBDB;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
 
+.addrbox__descr {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.addrbox {
+    margin-bottom: 40px;
+}
+
+.swiper-slide {
+    background: transparent;
+}
+
+.ourcontacts__form {
+    padding: 47px 0 0 0;
+}
+
+.ourcontacts__form form {
+    padding-bottom: 37px;
+    border-bottom: 1px solid #C1C1C1;
+}
+
+.ourcontacts__form-title {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.ourcontacts__form-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #010101;
+    margin-bottom: 55px;
+}
+
+.ourcontacts__form form input:not([type="submit"]),
+textarea {
+    width: 100%;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #C1C1C1;
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 44px;
+    resize: none;
+    outline: none;
+}
+
+.ourcontacts__form form input[type="submit"] {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    width: 100%;
+    height: 60px;
+    background: #CA1824;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Akrobat-bold sans-serif';
+    margin-bottom: 30px;
+}
+
+.ourcontacts__form .formtext,
+.ourcontacts__form .formtext a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #010101;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.ourcontacts__form .formtext a {
+    text-decoration: underline;
+}
+
+.ourcontacts__bottomsect {
+    padding: 36px 0;
+}
+
+.ourcontacts__bottomsect a.ourcontacts__bottomsect-phone {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.ourcontacts__bottomsect ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.ourcontacts__bottomsect ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.ourcontacts__bottomsect p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 16px;
+}
+
+.tripbtn {
+    display: block;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #33E0A1;
+}
 
 
 
