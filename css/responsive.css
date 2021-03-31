@@ -1222,7 +1222,7 @@
         display: block;
     }
 
-    .menusection.category {
+    .menusection.category.cat {
         background-image: none;
     }
 
@@ -1546,7 +1546,7 @@
         height: 600px;
     }
 
-    .menusection.category .col-12.col-md-6.col-lg-4 {
+    .menusection.category.cat .col-12.col-md-6.col-lg-4 {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
