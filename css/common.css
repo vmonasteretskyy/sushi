@@ -1440,7 +1440,7 @@ textarea {
 
 
 
-.menusection.category {
+.menusection.category.cat {
     background-image: url('../img/bgphone-cat.png');
     background-repeat: no-repeat;
     background-position: top 80px center;
