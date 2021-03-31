@@ -1327,6 +1327,18 @@ textarea {
     padding: 0 20px;
 }
 
+.googlelink:hover {
+    color: #fff;
+}
+
+.ourcontacts__form form input[type="submit"] {
+    outline: none;
+}
+
+
+
+
+
 /* 
 font-family: 'Raleway', sans-serif;
 font-family: 'Teko', sans-serif;
