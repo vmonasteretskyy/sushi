@@ -220,6 +220,14 @@
         margin-top: 30px;
     }
 
+    .product__descrwrap .descr {
+        height: 80px;
+    }
+
+
+
+
+
 
 
 
@@ -1129,6 +1137,98 @@
         display: none;
     }
 
+    .product__descrwrap .descr {
+        height: 90px;
+    }
+
+    .products-section {
+        padding-top: 0;
+    }
+
+    .product__descrwrap a {
+        border: 1px solid transparent;
+    }
+
+    .product__descrwrap a:hover {
+        border: 1px solid #CA1824;
+        background: #fff;
+        color: #CA1824;
+        box-shadow: 0 0 8px #b58d8d;
+    }
+
+    .categ-parallax>div:nth-child(1) {
+        left: 31% !important;
+        top: 5% !important;
+    }
+
+    .categ-parallax>div:nth-child(2) {
+        left: 81% !important;
+        top: 10% !important;
+    }
+
+    .categ-parallax>div:nth-child(3) {
+        left: 5% !important;
+        top: 10% !important;
+    }
+
+    .categ-parallax>div:nth-child(4) {
+        left: 3% !important;
+        top: 50% !important;
+    }
+
+    .categ-parallax>div:nth-child(5) {
+        left: 70% !important;
+        top: 92% !important;
+    }
+
+    .categ-parallax>div:nth-child(6) {
+        left: 89% !important;
+        top: 90% !important;
+    }
+
+    .categ-parallax>div:nth-child(7) {
+        left: 80% !important;
+        top: 8% !important;
+    }
+
+    .categ-parallax>div:nth-child(8) {
+        left: 92% !important;
+        top: 16% !important;
+    }
+
+    .categ-parallax>div:nth-child(9) {
+        left: 45% !important;
+        top: 13% !important;
+    }
+
+    .categ-parallax>div:nth-child(10) {
+        left: 89% !important;
+        top: 90% !important;
+    }
+
+    main {
+        position: relative;
+    }
+
+    .totop {
+        display: none;
+    }
+
+    .products-section {
+        padding-bottom: 150px;
+    }
+
+    .categ-parallax {
+        display: block;
+    }
+
+    .menusection.category {
+        background-image: none;
+    }
+
+
+
+
 
 }
 
@@ -1444,6 +1544,12 @@
 
     .visslidewrap {
         height: 600px;
+    }
+
+    .menusection.category .col-12.col-md-6.col-lg-4 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
     }
 
 

@@ -117,7 +117,14 @@ $(document).ready(function () {
 
     }
 
-
+    $(function () {
+        $("#toup").bind('click', function (e) {
+            e.preventDefault();
+            $('body,html').animate({
+                scrollTop: 0
+            }, 2000);
+        });
+    });
 
 
 

@@ -1335,6 +1335,124 @@ textarea {
     outline: none;
 }
 
+.product {
+    background: #fff;
+    margin-bottom: 64px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product__picwrap {
+    padding: 0 26px;
+    margin-bottom: -95px;
+}
+
+.product__descrwrap {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
+    padding: 112px 26px 24px 26px;
+}
+
+.product__descrwrap .title {
+    text-align: center;
+    margin-bottom: 9px;
+    font-family: 'Akrobat-bold sans-serif';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #010101;
+}
+
+.product__descrwrap .descr {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #010101;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 12px;
+}
+
+.product__descrwrap .descr span {
+    color: #888888;
+    display: block;
+}
+
+.product__descrwrap .price {
+    margin-bottom: 14px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #010101;
+    font-family: 'Akrobat-bold sans-serif';
+    text-align: center;
+}
+
+.product__descrwrap a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+    height: 34px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    background: #CA1824;
+    font-family: 'Akrobat-bold sans-serif';
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+}
+
+.totop {
+    text-align: right;
+    padding-bottom: 40px;
+}
+
+.totop button {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Akrobat-bold sans-serif';
+    color: #CA1824;
+}
+
+.totop button img {
+    margin-right: 8px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: -1px;
+}
+
+.products-section {
+    padding-top: 65px;
+}
+
+.categ-parallax {
+    display: none;
+}
+
+
+
+.menusection.category {
+    background-image: url('../img/bgphone-cat.png');
+    background-repeat: no-repeat;
+    background-position: top 80px center;
+}
+
+
+
+
+
+
+
+
 
 
 
