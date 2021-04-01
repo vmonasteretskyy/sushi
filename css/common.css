@@ -899,44 +899,6 @@ button:focus {
     display: none;
 }
 
-.product__circle {
-    margin-right: -20px;
-    width: 290px;
-    height: 290px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    display: inline-block;
-    border: 1px solid rgba(205, 102, 109, 0.2);
-    top: -100px;
-    right: -16px;
-    position: relative;
-
-}
-
-.product-picsect {
-    text-align: right;
-}
-
-.produvtpic img {
-    max-width: 100%;
-}
-
-.menusection.category {
-    overflow: hidden;
-}
-
-.produvtpic {
-    padding-right: 26px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .orderdelivery {
     padding: 33px 0 0 0;
 }
@@ -1440,11 +1402,217 @@ textarea {
 
 
 
-.menusection.category.cat {
+.menusection.category.cat,
+.mobbg {
     background-image: url('../img/bgphone-cat.png');
     background-repeat: no-repeat;
     background-position: top 80px center;
 }
+
+.circprsect .product__picwrap {
+    width: 220px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto -95px;
+}
+
+.circprsect .product__picwrap img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    filter: drop-shadow(-4px 10px 6px rgba(0, 0, 0, 0.25));
+    -webkit-filter: drop-shadow(-4px 10px 6px rgba(0, 0, 0, 0.25));
+}
+
+
+.product-picsect.singleprod {
+    margin-top: -100px;
+    right: -16px;
+    position: relative;
+
+}
+
+.product-picsect.singleprod .product__circle {
+    margin-right: -20px;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    border: 1px solid rgba(205, 102, 109, 0.2);
+
+}
+
+.product-picsect {
+    text-align: right;
+}
+
+.produvtpic img {
+    max-width: 100%;
+}
+
+.menusection.category {
+    overflow: hidden;
+}
+
+.produvtpic {
+    padding-right: 26px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-descr .title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 16px;
+}
+
+.product-descr .descr p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #010101;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 22px;
+}
+
+.product-descr .descr p span {
+    color: #888888;
+    display: block;
+}
+
+.product-descr .share {
+    width: 126px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CA1824;
+    color: #fff;
+    font-family: 'Akrobat-bold sans-serif';
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-descr .share img {
+    margin-right: 6px;
+}
+
+.product-descr .alergens-section {
+    padding: 40px 25px 35px;
+    background: rgba(242, 242, 242, .6);
+    position: relative;
+    margin-bottom: 134px;
+}
+
+.product-descr .alergens-section img.abspic {
+    position: absolute;
+    right: 0;
+    top: calc(100% - 20px);
+}
+
+.alergens__title {
+    font-size: 22px;
+    line-height: 32px;
+    color: #010101;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 23px;
+}
+
+.alergens__title img {
+    margin-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -3px;
+}
+
+.alergens__descr {
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+}
+
+.prodbg {
+    background-image: url('../img/prodbg.png');
+    background-repeat: no-repeat;
+    background-position: top 50px center;
+}
+
+.backred {
+    height: 30px;
+    background: #CA1824;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.backred__backbtn {
+    width: 126px;
+    height: 39px;
+    background-image: url('../img/redcirc.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    bottom: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.backred__backbtn a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    font-family: 'Akrobat-bold sans-serif';
+}
+
+.backred__backbtn a svg {
+    margin-top: -3px;
+}
+
+.backlink {
+    z-index: 3;
+    position: relative;
+}
+
+.footer.hidemob {
+    display: none;
+}
+
+.prodp-parallax {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 
