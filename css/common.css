@@ -1393,7 +1393,7 @@ textarea {
 }
 
 .products-section {
-    padding-top: 65px;
+    padding-top: 35px;
 }
 
 .categ-parallax {
@@ -1404,9 +1404,13 @@ textarea {
 
 .menusection.category.cat,
 .mobbg {
-    background-image: url('../img/bgphone-cat.png');
+    /* background-image: url('../img/bgphone-cat.png'); */
+
+    background-image: url('../img/phonebackground.png');
+    background-position: top 20px left;
     background-repeat: no-repeat;
-    background-position: top 80px center;
+    background-size: 110%;
+    /* background-position: top 80px center; */
 }
 
 .circprsect .product__picwrap {
@@ -1605,13 +1609,31 @@ textarea {
     display: none;
 }
 
+.product-square .product-picsect.singleprod {
+    margin-top: 0;
+    right: initial;
+}
 
+.product-square .product-picsect.singleprod .product__circle {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border: none;
+}
 
+.product-square .produvtpic {
+    padding-right: 0;
+    margin-bottom: 20px;
+}
 
-
-
-
-
+.product-square .colpic {
+    padding-top: 30px;
+}
 
 
 

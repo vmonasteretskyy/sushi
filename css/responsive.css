@@ -252,6 +252,9 @@
         background-position: top 150px right 100px;
     }
 
+    .product-square .colpic {
+        padding-top: 50px;
+    }
 
 }
 
@@ -1407,6 +1410,24 @@
         display: block;
     }
 
+    .product-square .colpic,
+    .product-descr {
+        padding-top: 0;
+    }
+
+    .product-square {
+        padding-top: 100px;
+    }
+
+    .prodp-parallax.pr2>div:nth-child(2) {
+        left: 65% !important;
+        top: 77% !important;
+    }
+
+    .prodp-parallax.pr2>div:nth-child(3) {
+        left: 73% !important;
+        top: 55% !important;
+    }
 
 
 }
@@ -1786,6 +1807,13 @@
         padding-top: 150px;
     }
 
+    .product-square {
+        padding-top: 150px;
+    }
+
+    .product-square .product-descr {
+        padding-top: 0;
+    }
 
 }
 
