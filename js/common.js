@@ -127,6 +127,14 @@ $(document).ready(function () {
     });
 
 
+    // backred
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 10) {
+            $('.backred').addClass('backred_visible');
+        } else {
+            $('.backred').removeClass('backred_visible');
+        }
+    });
 
 
 
