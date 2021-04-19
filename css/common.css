@@ -1666,3 +1666,30 @@ font-family: 'Teko', sans-serif;
 font-family: 'Akrobat-bold sans-serif';
  font-family: 'Akrobat sans-serif';
  */
+
+
+/* test */
+
+
+.header__toptitle {
+    display: none;
+}
+
+main {
+    padding-top: 104px;
+}
+
+.mainslider {
+    position: fixed;
+    left: 0;
+    top: 104px;
+    width: 100%;
+    height: calc(100vh - 104px);
+}
+
+.header__section {
+    background-image: url('../img/test.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: calc(100% - 105px);
+}
