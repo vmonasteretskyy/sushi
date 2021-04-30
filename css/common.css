@@ -1668,7 +1668,12 @@ font-family: 'Akrobat-bold sans-serif';
  */
 
 
-/* test */
+
+
+
+
+
+/* 30.04 */
 
 
 .header__toptitle {
@@ -1688,8 +1693,8 @@ main {
 }
 
 .header__section {
-    background-image: url('../img/test.svg');
+    background-image: url('../img/headertextpic.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: calc(100% - 105px);
+    background-size: calc(100% - 2.5%);
 }
