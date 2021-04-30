@@ -1698,3 +1698,8 @@ main {
     background-position: center;
     background-size: calc(100% - 2.5%);
 }
+
+.header__lang-current {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
