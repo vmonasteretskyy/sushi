@@ -1703,3 +1703,16 @@ main {
     color: #fff;
     border-bottom: 1px solid #fff;
 }
+
+.header__section {
+    padding: 5px 0;
+}
+
+main {
+    padding-top: 90px;
+}
+
+.mainslider {
+    height: calc(100vh - 90px);
+    top: 90px;
+}

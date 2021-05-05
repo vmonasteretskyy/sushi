@@ -2158,3 +2158,10 @@
         top: 102px;
     }
 }
+
+@media(max-width:575.8px) {
+    .header__lang-current {
+        color: #FF0011;
+        border-bottom: 1px solid #FF0011;
+    }
+}
