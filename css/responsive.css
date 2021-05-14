@@ -727,7 +727,8 @@
 
     .header__lang ul {
         left: -13px;
-        top: calc(100% + 40px);
+        /* top: calc(100% + 40px); */
+        top: calc(100% + 33px);
         height: auto;
     }
 
@@ -1266,7 +1267,7 @@
     }
 
     .categ-parallax>div:nth-child(4) {
-        left: 3% !important;
+        left: 0% !important;
         top: 50% !important;
     }
 
@@ -1328,6 +1329,10 @@
 
     .menusection.menusection__product {
         padding-top: 0;
+    }
+
+    .menusection.category.prodbg.menusection__product {
+        padding-top: 55px;
     }
 
     .product-picsect.singleprod .product__circle {
@@ -2229,4 +2234,377 @@
         color: #FF0011;
         border-bottom: 1px solid #FF0011;
     }
+}
+
+
+
+/* 13.05 */
+@media (min-width:1200px) and (max-width:1439.8px) {
+    .header {
+        height: 70px;
+    }
+
+    main {
+        padding-top: 70px;
+    }
+
+    .mainslider {
+        height: calc(100vh - 70px);
+        top: 70px;
+    }
+
+    .circprsect .product__picwrap {
+        max-width: 80%;
+        max-height: 100%;
+    }
+
+    .circprsect .product__picwrap {
+        height: 120px;
+    }
+
+    .menusection.category.cat .circprsect .product__descrwrap .descr p,
+    .peppers {
+        margin-bottom: 5px;
+    }
+
+    .menusection.category.cat .circprsect .product__descrwrap .descr {
+        height: 120px;
+    }
+
+    .product {
+        margin-bottom: 40px;
+    }
+
+
+
+
+}
+
+@media(max-width:1600.8px) {
+    .offersbox {
+        height: 340px;
+        margin-bottom: 50px;
+    }
+
+    .offersbox__descr {
+        font-size: 20px;
+        line-height: 24px;
+        height: 46px;
+    }
+
+    .offersbox__label {
+        margin-bottom: 15px;
+    }
+
+    .menusection.offerssect h1 {
+        margin-bottom: 40px;
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .menusection.offerssect,
+    .offersingle.offerssect {
+        /* min-height: calc(100vh - 174px); */
+        min-height: calc(100vh - 169px);
+    }
+
+    .offersingle__textblock {
+        padding-top: 40px;
+    }
+
+    .product-descr .peppers {
+        width: 60px;
+        height: 40px;
+    }
+
+
+
+
+
+    .offersingle {
+        padding: 50px 0 55px 0;
+    }
+
+    .offersingle__textblock h1 {
+        font-size: 40px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .offersingle__descr p,
+    .offersingle__descr .share {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width:1550.8px) {
+
+    .menusection.offerssect,
+    .offersingle.offerssect {
+        min-height: calc(100vh - 170px);
+    }
+
+    .header__lang ul {
+        top: calc(100% + 30px);
+    }
+}
+
+@media(max-width:1440.8px) {
+    .row.fivecolumnrow .col-custom {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media(max-width:1439.8px) {
+
+    .menusection.offerssect,
+    .offersingle.offerssect {
+        /* min-height: calc(100vh - 156px); */
+        min-height: calc(100vh - 154px);
+    }
+
+    .header__lang ul {
+        top: calc(100% + 23px);
+    }
+}
+
+@media(max-width:1300.8px) {
+    .offersingle__textblock h1 {
+        font-size: 32px;
+    }
+
+    .menusection.category.cat h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .offersingle__descr p,
+    .offersingle__descr .share {
+        line-height: 140%;
+    }
+
+    .product__descrwrap {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+}
+
+@media(max-width:1199.8px) {
+    .offersbox .textbox a {
+        width: 144px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .offersbox .picbox {
+        height: calc(100% - 17px);
+    }
+
+    .offersbox {
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .offersingle__textblock {
+        padding-top: 0;
+    }
+
+    .offersingle.offerssect {
+        padding-top: 33px;
+    }
+
+    .header__lang ul {
+        top: calc(100% + 7px);
+    }
+
+
+
+
+
+
+}
+
+@media(max-width:991.8px) {
+    .menusection.offerssect h1 {
+        margin-bottom: 30px;
+        font-size: 36px;
+    }
+
+    .offersbox .textbox a {
+        width: 126px;
+        height: 36px;
+    }
+
+    .row.fivecolumnrow .col-custom {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:767.8px) {
+    .offersbox__descr {
+        font-size: 18px;
+        line-height: 22px;
+        height: 42px;
+    }
+
+    .offersbox {
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .menusection.offerssect h1 {
+        font-size: 32px;
+    }
+
+    .menusection.offerssect {
+        padding-bottom: 30px;
+    }
+
+    .offersingle__descr p {
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .offersingle__descr p {
+        font-size: 14px;
+    }
+
+    .offersingle__textblock h1 {
+        font-size: 28px;
+    }
+
+}
+
+@media(max-width:575.8px) {
+    .row.fivecolumnrow .col-custom {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .offersbox {
+        height: 300px;
+    }
+
+    .offersingle.offerssect {
+        padding-bottom: 30px;
+    }
+
+    .menusection.category.cat .circprsect .product__descrwrap .descr p,
+    .menusection.category.cat .circprsect .product__descrwrap .descr {
+        height: auto;
+    }
+
+
+
+
+
+
+    .product__descrwrap .title {
+        font-size: 20px;
+    }
+
+    .product__descrwrap .descr {
+        font-size: 15px;
+    }
+
+    .offersingle__textblock h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:375.8px) {
+
+    /* .row.fivecolumnrow .col-custom {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } */
+
+    .row.fivecolumnrow {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .row.fivecolumnrow .col-custom {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .offersbox__descr {
+        font-size: 16px;
+    }
+
+
+
+
+
+}
+
+@media(max-width:360.8px) {
+
+    .row.fivecolumnrow .col-custom {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .offersbox__descr {
+        font-size: 22px;
+        line-height: 28px;
+        height: 52px;
+    }
+
+    .offersbox .textbox a {
+        width: 140px;
+        height: 42px;
+        font-size: 18px;
+    }
+
+    .offersbox .picbox {
+        height: calc(100% - 19px);
+    }
+
+    .offersbox__label {
+        font-size: 16px;
+        line-height: 16px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .menusection.offerssect h1 {
+        margin-bottom: 15px;
+    }
+
+    .offersbox {
+        height: 350px;
+    }
+
+
+
 }
